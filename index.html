@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5june2021</title>
+    <!-- Font Awesome Icon Library -->
+    <link rel="shortcut icon" href="img/vRj.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <nav id="navbar">
+            <div class="logo">
+
+                <div id="logo">VagiRj<a id="logo-s">Code</a></div>
+            </div>
+            <label id="icon">
+                <img src="img/menu.png" alt="menu">
+            </label>
+            <div class="menu">
+                <ul id="show-menu" class="onmenu">
+                    <li><a class="active" class="left" href="#">Home</a></li>
+                    <li><a href="#About" class="left">About</a></li>
+                    <li><a href="#Service" class="left">Services</a></li>
+                    <li><a href="#Portfolia" class="left">Portfolia</a></li>
+                    <li><a href="#Blog" class="left">Blog</a></li>
+                    <li><a href="#Contact" class="left">Contact</a></li>
+
+                </ul>
+            </div>
+            <div class="signsec">
+                <span class="sign"><a id="act" href="#">SIGN UP</a></span>
+                <span class="sign"><a href="#">SIGN IN</a></span>
+            </div>
+        </nav>
+
+
+    </header>
+
+    <div class="slider">
+
+        <div class="myslider fade">
+            <div class="txt">
+                <h1>Ankita</h1>
+                <p>I'm a web designer.</p>
+            </div>
+            <img src="https://cdn.pixabay.com/photo/2017/09/16/19/21/salad-2756467_960_720.jpg" alt="food1"
+                style="width: 100%; height: 100%;">
+        </div>
+        <div class="myslider fade">
+            <div class="txt">
+                <h1>Ranjan</h1>
+                <p>I'm nothing.</p>
+            </div>
+            <img src="https://cdn.pixabay.com/photo/2017/10/09/19/29/eat-2834549_960_720.jpg" alt="food2"
+                style="width: 100%; height: 100%;">
+        </div>
+        <div class="myslider fade">
+            <div class="txt">
+                <h1>RjCode</h1>
+                <p>I'm everything.</p>
+            </div>
+            <img src="https://cdn.pixabay.com/photo/2015/12/09/17/11/vegetables-1085063_960_720.jpg" alt="food3"
+                style="width: 100%; height: 100%;">
+        </div>
+
+        <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlide(1)">&#10095;</a>
+
+        <div class="dotsbox" style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+
+    <section id="About">
+        <div class="box-1">
+            <div class="img-info-skill">
+                <div class="img-info">
+                    <div>
+                        <img src="img/ankita2.png" alt="About img">
+
+                    </div>
+                    <div class="info">
+
+                        <h3>Name: <a id="info-fill">Ankita</a></h3>
+                        <h3>Profile: <a id="info-fill">full stack developer</a></h3>
+                        <h3>Email: <a id="info-fill">contact@example.com</a></h3>
+                        <h3>Phone: <a id="info-fill">(617) 557-0089</a></h3>
+                    </div>
+                </div>
+                <div class="skill">
+
+                    <h2>SKILL</h2>
+                    <h3>HTML 80%</h3>
+                    <div class="progress">
+                        <div class="html-progress-bar"></div>
+                    </div>
+                    <h3>CSS3 66%</h3>
+                    <div class="progress">
+                        <div class="css-progress-bar"></div>
+                    </div>
+                    <h3>JAVASCRIPT 70%</h3>
+                    <div class="progress">
+                        <div class="js-progress-bar"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="about-txt">
+                <H1>About me</H1>
+                <br>
+                <h3> Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
+                    imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non
+                    nisi.
+                    Nulla porttitor accumsan tincidunt.
+                    <br><br>
+                    Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
+                    porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor
+                    at
+                    sem.
+                    <br><br>
+                    Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+                    Nulla
+                    porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                </h3>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SERVICE SECTION -->
+
+    <section id="Service">
+        <h1>SERVICES</h1>
+        <p>Quia, provident vitae! Magni tempora perferendis</p>
+        <div class="services">
+
+            <div class="margin">
+                <div class="my-service">
+                    <div class="circle"><img src="img/service1.png" alt="serviceimg1"></div>
+                    <div class="servicetxt">
+                        <h2>WEB DESIGN</h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos culpa amet consequuntur
+                        repudiandae similique saepe aliquam ex veniam sed earum dolorum, voluptate officiis eos libero
+                        atque
+                        ipsa hic. Expedita, provident.
+                    </div>
+                </div>
+
+            </div>
+            <div class="margin">
+
+                <div class="my-service">
+                    <div class="circle"><img src="img/service2.png" alt="serviceimg2"></div>
+                    <div class="servicetxt">
+                        <h2>WEB DEVELOPMENT</h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos culpa amet consequuntur
+                        repudiandae similique saepe aliquam ex veniam sed earum dolorum, voluptate officiis eos libero
+                        atque
+                        ipsa hic. Expedita, provident.
+                    </div>
+                </div>
+            </div>
+            <div class="margin">
+                <div class="my-service">
+                    <div class="circle"><img src="img/service3.png" alt="serviceimg3"></div>
+                    <div class="servicetxt">
+                        <h2>PHOTOGRAPHY</h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos culpa amet consequuntur
+                        repudiandae similique saepe aliquam ex veniam sed earum dolorum, voluptate officiis eos libero
+                        atque
+                        ipsa hic. Expedita, provident
+                    </div>
+                </div>
+
+            </div>
+            <div class="margin">
+                <div class="my-service">
+                    <div class="circle"><img src="img/service4.png" alt="serviceimg4"></div>
+                    <div class="servicetxt">
+                        <h2>RESPONSIVE DESIGN</h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos culpa amet consequuntur
+                        repudiandae similique saepe aliquam ex veniam sed earum dolorum, voluptate officiis eos libero
+                        atque
+                        ipsa hic. Expedita, provident.
+                    </div>
+                </div>
+
+            </div>
+            <div class="margin">
+                <div class="my-service">
+                    <div class="circle"><img src="img/service5.png" alt="serviceimg5"></div>
+                    <div class="servicetxt">
+                        <h2>GRAPHIC DESIGN</h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos culpa amet consequuntur
+                        repudiandae similique saepe aliquam ex veniam sed earum dolorum, voluptate officiis eos libero
+                        atque
+                        ipsa hic. Expedita, provident.
+                    </div>
+                </div>
+
+            </div>
+            <div class="margin">
+                <div class="my-service">
+                    <div class="circle"><img src="img/service6.png" alt="serviceimg6"></div>
+                    <div class="servicetxt">
+                        <h2>MARKETING SERVICES</h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos culpa amet consequuntur
+                        repudiandae similique saepe aliquam ex veniam sed earum dolorum, voluptate officiis eos libero
+                        atque
+                        ipsa hic. Expedita, provident.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- OTHER SECTION -->
+
+    <section id="Other">
+        <div class="others">
+            <div class="other-circle"><img src="img/other1.png" alt="other1">
+                <h1>120</h1>
+                <h3>VIEWS</h3>
+            </div>
+            <div class="other-circle"><img src="img/service1.png" alt="other2">
+                <h1>99%</h1>
+                <h3>LOVE RATING</h3>
+            </div>
+            <div class="other-circle"><img src="img/other3.png" alt="other3">
+                <h1>450</h1>
+                <h3>WORKS COMPLETED</h3>
+            </div>
+            <div class="other-circle"><img src="img/other4.png" alt="other4">
+                <h1>95%</h1>
+                <h3>GROWTH IN 2020</h3>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- PORFOLIO SECTION -->
+
+    <section id="Portfolia">
+        <h1>PORTFOLIO</h1>
+        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</P>
+        <div class="portfolios">
+            <div class="margin margin-hover">
+                <div class="img-txt">
+                    <figure>
+
+                        <img src="img/pfofilioimg1.png" alt="Portfolia1">
+                    </figure>
+                    <h2 class="txt-h1">Lorem ipsum dolor sit</h2>
+                    <h3 class="txt-h3">Web Design <a>/ 7 june 2021</a></h3>
+                </div>
+            </div>
+
+            <div class="margin margin-hover">
+                <div class="img-txt">
+                    <figure>
+
+                        <img src="img/pfofilioimg2.png" alt="Portfolia2">
+                    </figure>
+                    <h2>Lorem ipsum dolor sit</h2>
+                    <h3>Web Design <a>/ 7 june 2021</a></h3>
+                </div>
+            </div>
+            <div class="margin margin-hover">
+                <div class="img-txt">
+                    <figure>
+
+                        <img src="img/pfofilioimg3.png" alt="Portfolia3">
+                    </figure>
+                    <h2>Lorem ipsum dolor sit</h2>
+                    <h3>Web Design <a>/ 7 june 2021</a></h3>
+                </div>
+            </div>
+            <div class="margin margin-hover">
+                <div class="img-txt">
+                    <figure>
+
+                        <img src="img/pfofilioimg4.png" alt="Portfolia4">
+                    </figure>
+                    <h2>Lorem ipsum dolor sit</h2>
+                    <h3>Web Design <a>/ 7 june 2021</a></h3>
+                </div>
+            </div>
+            <div class="margin margin-hover">
+                <div class="img-txt">
+                    <figure>
+
+                        <img src="img/pfofilioimg5.png" alt="Portfolia4">
+                    </figure>
+                    <h2>Lorem ipsum dolor sit</h2>
+                    <h3>Web Design <a>/ 7 june 2021</a></h3>
+                </div>
+            </div>
+            <div class="margin margin-hover">
+                <div class="img-txt">
+                    <figure>
+
+                        <img src="img/pfofilioimg6.png" alt="Portfolia4">
+                    </figure>
+                    <h2>Lorem ipsum dolor sit</h2>
+                    <h3>Web Design <a>/ 7 june 2021</a></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- OTHER 2 SECTION -->
+
+    <section id="Other-2">
+
+        <!-- 
+
+            <div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="img_nature_wide.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+ 
+  <img src="img_snow_wide.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+ 
+ <div class="box" style="width:100%; heigth:700%; background-color: #717171; text-aline: center;">
+ <img src="img_mountains_wide.jpg" style="width:10%; margin:auto;" >
+ </div>
+  
+  
+  
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+this is the important code for me
+
+
+         -->
+        <div class="others2">
+            <div class="otherslider" style="display: block;">
+                <div class="other-txt">
+                    <img src="img/ankita2.png" alt="">
+                    <h1>ANKITA</h1>
+                    <P>I'm a web designer Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias a repe</P>
+                </div>
+            </div>
+            <div class="otherslider">
+                <div class="other-txt">
+                    <img src="img/otherimg-2.jpg" alt="">
+                    <h1>JASO</h1>
+                    <P>I'm a web designer Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias a repe</P>
+                </div>
+            </div>
+            <div class="other-dotsbox" style="text-align: center;">
+                <span class="others-dot" onclick="OtherSlide(1)"></span>
+                <span class="others-dot" onclick="OtherSlide(2)"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG SECTION -->
+
+    <section id="Blog">
+        <h1>BLOG</h1>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing</P>
+        <div class="blogs">
+            <div class="margin">
+                <div class="blog">
+                    <img src="img/blog1.png" alt="blog1">
+                    <h2 class="h2">See more ideas about Travel</h2>
+                    <h4>
+                        Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa,
+                        convallis a pellentesque nec, egestas non nisi.
+                    </h4>
+                    <div class="ankita">
+                        <img src="img/ankita2.png" alt="">
+                        <h3>Ankita</h3>
+                        <h4>/ 10.20</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="margin">
+                <div class="blog">
+                    <img src="img/blog2.png" alt="blog2">
+                    <h2 class="h2">See more ideas about Travel</h2>
+                    <h4>
+                        Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa,
+                        convallis a pellentesque nec, egestas non nisi.
+                    </h4>
+                    <!-- <hr> -->
+                    <div class="ankita">
+                        <img src="img/ankita2.png" alt="">
+                        <h3>Ankita</h3>
+                        <h4>/ 10.20</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="margin">
+                <div class="blog">
+                    <img src="img/blog3.png" alt="blog3">
+                    <h2 class="h2">See more ideas about Travel</h2>
+                    <h4>
+                        Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa,
+                        convallis a pellentesque nec, egestas non nisi.
+                    </h4>
+                    <div class="ankita">
+                        <img src="img/ankita2.png" alt="">
+                        <h3>Ankita</h3>
+                        <h4>/ 10.20</h4>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+
+    <section id="Contact">
+        <h1>CONTACT</h1>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing</P>
+        <div class="contact">
+            <div class="map-other-info">
+                <h2>Get in Touch</h1>
+                    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis ducimus nobi</h3>
+                    <!-- <a href="https://www.google.co.in/maps/@28.5788,77.3321,16z"> ho</a> -->
+                    <div id="map"></div>
+                    <div>
+                        <div class="contact-me"><img src="img/location.png" alt="location"> <a> 329 DELHI ST BOSTON, MA
+                                02108</a></div>
+                        <div class="contact-me"><img src="img/phone.png" alt="phone"> <a>(617) 557-0089</a></div>
+                        <div class="contact-me"><img src="img/mail.png" alt="mail"> <a>contact@example.com</a></div>
+
+                    </div>
+            </div>
+            <div class="contact-info">
+                <h2>Send Message</h1>
+                    <form action="/sign_up" class="form" method="POST">
+                        <input type="text" name="name" id="name" class="input" placeholder="Your Name">
+                        <input type="email" name="email" id="email" class="input" placeholder="Your Email">
+                        <input type="number" name="number" id="number" class="input" placeholder="Your Number">
+                        <textarea name="message" id="message" class="input" cols="30" rows="10"
+                            placeholder="Message"></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION FOOTER -->
+
+    <section id="footer">
+        <h2>Copyright © 2021 VagiRjCode.com | All right reserved</h2>
+        <h2>Designed by RjCode</h2>
+    </section>
+
+    <button onclick="topFunction()" id="back-to-top"><img src="img/back-to-top.png" alt="Top"></button>
+
+
+
+</body>
+<script src="index.js"></script>
+<script>
+    //Get the button:
+    mybutton = document.getElementById("back-to-top");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+            mybutton.style.display = "block";
+        }
+        else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>
+
+<script>
+    function initMap() {
+        var uluru = { lat: 28.501859, lng: 77.410320 };
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 4,
+            center: uluru
+        });
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+    }
+
+
+    // Get the button, and when the user clicks on it, execute myFunction
+    let menu = document.getElementById("icon");
+    /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+    menu.addEventListener("click", function () {
+        document.getElementById("show-menu").classList.toggle("show");
+
+    })
+
+
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=
+AIzaSyB2bXKNDezDf6YNVc-SauobynNHPo4RJb8&callback=initMap">
+</script>
+
+</html>
